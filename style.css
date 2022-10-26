@@ -4,24 +4,24 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.preview-image {
+.preview-img {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.preview-image img {
+.preview-img img {
   width: 100%;
 }
-.preview-image .more-info {
+.preview-img .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.preview-image { text-align: center;
+.preview-img { text-align: center;
 }
 }
-.centered-main-page-element {
+.main-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.task-input {
   display: flex;
 }
 ul {
