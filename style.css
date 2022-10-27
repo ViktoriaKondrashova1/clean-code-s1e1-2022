@@ -158,7 +158,7 @@
 
 /* Edit Task */
 
-.task-input {
+.list-item .task-input {
   display: none;
 }
 
