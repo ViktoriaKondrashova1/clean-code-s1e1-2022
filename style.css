@@ -5,7 +5,7 @@
   font-family: Lato, sans-serif;
 }
 
-.page__header {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -22,40 +22,40 @@
 
 @media (max-width: 768px) {
 
-  .page__header { 
+  .header { 
     text-align: center;
   }
 
 }
 
-.page__main {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
 .task-input, 
-.item__task-label {
+.task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
   outline: none;
 }
 
-.section__wrap {
+.wrapper {
   display: flex;
 }
 
-.section__list {
+.list {
   margin: 0;
   padding: 0px;
 }
 
-.list__item .section__title {
+.list__item {
   list-style: none;
 }
 
-.item__check-input {
+.check-input {
   outline: none;
 }
 
@@ -76,7 +76,7 @@
 
 /* Heading */
 
-.section__title {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -106,12 +106,12 @@
 
 /* New Task */
 
-.add-title {
+.add-section__title {
   display: block;
   margin: 0 0 20px;
 }
 
-.wrap__task-input {
+.wrapper__task-input {
   width: 318px;
 }
 
@@ -127,11 +127,11 @@
   vertical-align: middle;
 }
 
-.item__check-input {
+.check-input {
   margin: 0 10px;
 }
 
-.item__task-label {
+.task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -150,22 +150,22 @@
 
 /* Completed */
 
-#completed-tasks .item__task-label {
+.completed-section__list .task-label {
   text-decoration: line-through;
-    color: #888;
+  color: #888;
 }
 
 /* Edit Task */
 
-.list__item .task-input {
+.list-item__task-input {
   display: none;
 }
 
-.edit-mode .task-input {
+.list__item_edit-mode .task-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .item__task-label {
+.list__item_edit-mode .task-label {
   display: none;
 }
